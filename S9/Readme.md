@@ -1,17 +1,7 @@
-# S9
+# S9 : DATA AUGMENTATION
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Mx9Qb5UMf1MNKc0o4sg6xt_g3FItjLSl)
 
-[Link to assignment](https://github.com/abhinavdayal/EVA4/blob/master/S9/EVA04_S9_Resnet18_Albumentations_Gradcam.ipynb)
-* We did Albumentation library augmentation and tried cutout, horizontal flip, rgb shift and Rortate along with Normalize and ToTensor
-* test transform in only Normalize and ToTensor
-* We implemented Gradcam using help from [this library](https://github.com/kazuto1011/grad-cam-pytorch).
-* We tested gradcam with both cutout etc. and no transformations other than nortmalize. Results were interesting. In fact on some images it didnt predict well. And we visualize all 4 layer outputs of ResNet. Lots of learning.
-
-# changes to library ([link](https://github.com/abhinavdayal/EVA4/tree/master/S9/EVA4))
-
-* added gradcam functionality
-* added Albumentation transforms
-
-
-# QuizDNN
-* we added a new model for the [QuizDNN](https://github.com/abhinavdayal/EVA4/blob/master/S9/EVA4/eva4models/QuizDNN.py) in our library and reran to get accuracy of 92.15% in 30 epochs.
+* `Here, Albumentation library augmentation and tried cutout, horizontal flip, rgb shift and Rortate along with Normalize and ToTensor`
+* `Test transform in only Normalize and ToTensor`
+* ` Here, results tested with GradCam, but out of 4 layers only last layer showed the results of gradients`*
 
