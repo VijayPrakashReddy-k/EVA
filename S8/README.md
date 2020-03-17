@@ -1,7 +1,7 @@
 
 # Session 8 - Receptive Fields and Network Architecture
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uday96/EVA4-TSAI/blob/master/S8/EVA4_S8_Solution.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VijayPrakashReddy-k/EVA/blob/master/S8/EVA4_S8_Solution.ipynb#scrollTo=cP_fysHfzY2Z)
 
 ###	Objective
 Achieve an accuracy of **85%** on the **CIFAR-10** dataset using **ResNet18**
